@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test-1</title>
+</head>
+<body>
+  <header class="header">
+    <nav class="header__menu">
+      <img class="header__logo">
+      <ul class="header__links">
+        <li class="header__links-list">
+          <a href="#" class="header__link">Новости</a>
+        </li>
+        <li class="header__links-list">
+          <a href="#" class="header__link">Проекты</a>
+        </li>
+        <li class="header__links-list">
+          <a href="#" class="header__link">Контакты</a>
+        </li>
+        <li class="header__links-list">
+          <a href="#" class="header__tel">8 (888) 888-88-88</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+
+    <div class="cover"> <!-- картинка задаётся в стилях через background-image -->
+      <h1 class="cover__title">Лидер в разработке интегрированных и высоконагруженных интернет-решений</h1>
+      <button class="cover__button">Заказать</button>
+    </div>
+
+    <div class="news">
+      <h3 class="news__title">Новости</h3>
+      <div class="news__block">
+        <div class="card">
+          <img class="card__image" src="./images/1"> <!-- путь условный, если картинки сложены в корне проекта в папку images -->
+          <h4 class="card__title">Разработка самого крупного портала на Битриксе в России</h4>
+          <div class="card__line" style="background-color: brown; width: 50px; height: 3px;"></div>
+          <p class="card__text">Смотрите видео и читайте наш новый кейс...</p>
+        </div>
+        <div class="card">
+          <img class="card__image" src="./images/1">
+          <h4 class="card__title">Как выбрать ИТ-платформу для интернет магазина</h4>
+          <div class="card__line" style="background-color: brown; width: 50px; height: 3px;"></div>
+          <p class="card__text">Смотрите видео и читайте наш новый кейс...</p>
+        </div>
+        <div class="card">
+          <img class="card__image" src="./images/1">
+          <h4 class="card__title">Мы участвуем в выставке ECOM Expo и угощаем кофе</h4>
+          <div class="card__line" style="background-color: brown; width: 50px; height: 3px;"></div>
+          <p class="card__text">Смотрите видео и читайте наш новый кейс...</p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container"> <!-- весь текст в контейнере для того, чтобы контейнер и кнопку можно было раскидать с помощью justify-content: space-between;-->
+      <p class="footer__copywrite">@ QSOFT, 2019</p>
+      <ul class="footer__links">
+        <li class="footer__links-list">
+          <a href="#" class="footer__link">Работает на 1-С Битрикс: Управление сайтом,</a> <!-- решила сделать ссылки на битрикс и политику -->
+        </li>
+        <li class="footer__links-list">
+          <a href="#" class="footer__link">Политика конфиденциальности</a>
+        </li>
+      </ul>
+    </div>
+    <button class="footer__button">Подписаться</button>
+  </footer>
+</body>
+</html>
